@@ -1,0 +1,43 @@
+<?php
+
+namespace App\Http\Requests\Admin;
+
+use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
+
+/**
+ * Class CreateEntradaRequest
+ * @package App\Http\Requests\Admin
+ */
+class CreateSalidaRequest extends FormRequest
+{
+
+    /**
+     * Determine if the entrada is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return   $rules = [
+
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+
+        ];
+    }
+}
