@@ -25,7 +25,7 @@ Follow these steps to set up the project locally:
 Clone the repository:
 
 Bash
-git clone https://github.com/your-user/admin-golf.git
+git clone https://github.com/laymerichr/admin-golf.git
 cd admin-golf
 Install dependencies:
 
